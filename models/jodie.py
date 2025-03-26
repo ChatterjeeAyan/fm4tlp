@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2024 The Google Research Authors.
+# Copyright 2024
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -289,7 +289,7 @@ class JODIE(model_template.TlpModel):
     #     with a 0-mean Gaussian linear layer. For more details, refer to
     #     Section 3.2 of the original paper:
     #     https://cs.stanford.edu/~srijan/pubs/jodie-kdd2019.pdf; see also
-    #     google_research/fm4tlp/modules/emb_module.py?q=symbol:TimeEmbedding).
+    #     fm4tlp/modules/emb_module.py?q=symbol:TimeEmbedding).
     node_embeddings = self._gnn(
         memory_embeddings,
         last_updated_timestamps,
