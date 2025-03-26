@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2024 The Google Research Authors.
+# Copyright 2024
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ r"""Continent-wise data prep and negative smapling for validation and test.
 
 Example command:
 
-python google_research/fm4tlp/tgbl_flight_negatives -- \
+python fm4tlp/tgbl_flight_negatives -- \
     --root_dir=./data \
     --continent=EU
 """

@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2024 The Google Research Authors.
+# Copyright 2024
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ r"""Generate and store structural features for a dataset split, with Beam.
 
 Command for an example run:
 
-python google_research/fm4tlp/generate_structural_features_pipeline \
+python fm4tlp/generate_structural_features_pipeline \
   --data='tgbl_wiki;cc-subgraph,tgbl_coin;cc-subgraph,tgbl_review;cc-subgraph,tgbl_comment;cc-subgraph,tgbl_flight;AS,tgbl_flight;AF,tgbl_flight;EU' \
   --root_dir=./data \
   --only_basic_features=True \

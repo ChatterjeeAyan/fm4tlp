@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2024 The Google Research Authors.
+# Copyright 2024
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ r"""Script to study correlation between memory embeddings and structural/positio
 
 command for an example run:
 
-python google_research/fm4tlp/get_embedding_correlation -- \
+python fm4tlp/get_embedding_correlation -- \
   --data=tgbl_wiki \
   --root_dir=./data \
   --output_subdir=palowitch_factored_test \

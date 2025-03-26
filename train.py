@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2024 The Google Research Authors.
+# Copyright 2024
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ Reference:
 
 command for an example run:
 
-python google_research/fm4tlp/train  -- \
+python fm4tlp/train  -- \
   --data=tgbl_wiki \
   --num_epoch=1 \
   --root_dir=./data \

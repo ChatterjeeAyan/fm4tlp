@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2024 The Google Research Authors.
+# Copyright 2024
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ Crypto coin address-ID mapping for tgbl-coin. Community detection. Time split fo
 
 Example cmmand:
 
-python google_research/fm4tlp/tgbl_coin_dataprep -- \
+python fm4tlp/tgbl_coin_dataprep -- \
   --root_dir=./data
 """
 

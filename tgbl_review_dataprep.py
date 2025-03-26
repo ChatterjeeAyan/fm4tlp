@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2024 The Google Research Authors.
+# Copyright 2024
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ Note: we can consider using Barber modularity clustering instead:
 
 Example cmmand:
 
-python google_research/fm4tlp/tgbl_review_dataprep -- \
+python fm4tlp/tgbl_review_dataprep -- \
   --root_dir=./data
 """
 

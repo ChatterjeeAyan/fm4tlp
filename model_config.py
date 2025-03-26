@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2024 The Google Research Authors.
+# Copyright 2024
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,19 +23,19 @@ from fm4tlp.models import model_config_pb2
 
 
 _MODEL_CONFIG_PATHS = [
-    "google_research/fm4tlp/models/configs/dyrep.pbtxt",
-    "google_research/fm4tlp/models/configs/dyrep_structmap.pbtxt",
-    "google_research/fm4tlp/models/configs/dyrep_structmap_alpha10.pbtxt",
-    "google_research/fm4tlp/models/configs/dyrep_structmap_alpha100.pbtxt",
-    "google_research/fm4tlp/models/configs/jodie.pbtxt",
-    "google_research/fm4tlp/models/configs/jodie_structmap.pbtxt",
-    "google_research/fm4tlp/models/configs/jodie_structmap_alpha10.pbtxt",
-    "google_research/fm4tlp/models/configs/jodie_structmap_alpha100.pbtxt",
-    "google_research/fm4tlp/models/configs/tgn.pbtxt",
-    "google_research/fm4tlp/models/configs/tgn_structmap.pbtxt",
-    "google_research/fm4tlp/models/configs/tgn_structmap_alpha10.pbtxt",
-    "google_research/fm4tlp/models/configs/tgn_structmap_alpha100.pbtxt",
-    "google_research/fm4tlp/models/configs/edgebank.pbtxt",
+    "fm4tlp/models/configs/dyrep.pbtxt",
+    "fm4tlp/models/configs/dyrep_structmap.pbtxt",
+    "fm4tlp/models/configs/dyrep_structmap_alpha10.pbtxt",
+    "fm4tlp/models/configs/dyrep_structmap_alpha100.pbtxt",
+    "fm4tlp/models/configs/jodie.pbtxt",
+    "fm4tlp/models/configs/jodie_structmap.pbtxt",
+    "fm4tlp/models/configs/jodie_structmap_alpha10.pbtxt",
+    "fm4tlp/models/configs/jodie_structmap_alpha100.pbtxt",
+    "fm4tlp/models/configs/tgn.pbtxt",
+    "fm4tlp/models/configs/tgn_structmap.pbtxt",
+    "fm4tlp/models/configs/tgn_structmap_alpha10.pbtxt",
+    "fm4tlp/models/configs/tgn_structmap_alpha100.pbtxt",
+    "fm4tlp/models/configs/edgebank.pbtxt",
 ]
 
 

@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2024 The Google Research Authors.
+# Copyright 2024
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ r"""Stores subgraphs for downstream structural feature computation.
 
 Command for an example run:
 
-python google_research/fm4tlp/generate_subgraphs  -- \
+python fm4tlp/generate_subgraphs  -- \
   --data=tgbl_wiki \
   --root_dir=./data_clone \
   --community=cc-subgraph \
